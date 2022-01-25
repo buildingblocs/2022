@@ -115,6 +115,14 @@ We strongly encourage local development and making pull requests as editing via 
 
 ---
 
-To submit your changes, please either commit changes to a [different branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) or fork the repo and [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Use the template in the .template folder for making a Pull Request. 
+To submit your changes, please either commit changes to a [different branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) or fork the repo and [Create a Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request). Use the template in the `.template` folder for making a Pull Request. 
+
+</br>
+
+---
+
+### **Changing buildingblocs.sg Repo**
+
+---
 
 To make this the site that visiting [buildingblocs.sg](https://buildingblocs.sg) redirects to, see [this repo](https://github.com/buildingblocs/buildingblocs.github.io).
