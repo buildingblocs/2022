@@ -78,7 +78,7 @@ yarn build
 #### Upgrading to latest compatible version. **This is strongly recommended.**
 
 ```
-yarn upgrade --latest --tilde
+yarn upgrade --latest --caret
 ```
 
 #### To upgrade all dependencies to the latest version. **This is not recommended.**
