@@ -126,3 +126,11 @@ To submit your changes, please either commit changes to a [different branch](htt
 ---
 
 To make this the site that visiting [buildingblocs.sg](https://buildingblocs.sg) redirects to, see [this repo](https://github.com/buildingblocs/buildingblocs.github.io).
+
+</br></br></br>
+
+## **NOTE**
+
+---
+
+> **This server uses [SASS](https://sass-lang.com/), hence the `.scss` files can be found at `/assets/sass/`**
