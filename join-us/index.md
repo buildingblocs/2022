@@ -13,7 +13,7 @@ Computing experience is not a prerequisite - so anyone can sign up with our wide
 # <a class="btn" href="https://go.buildingblocs.sg/organiser/signup ">Sign up as organisers!</a>
 
 ### Sign up for our conferences
-We have yet to release our conference signups - do stay tuned and block out the following days for fun-filled days of workshops, games and talks!
-March Conference Dates: 12 to 15 March 2022
-FOSSASIA Dates: 7 to 9 April 2022
-June Flagship Conference Dates: Not confirmed.
+We have yet to release our conference signups - do stay tuned and block out the following days for fun-filled days of workshops, games and talks!  
+March Conference Dates: 12 to 15 March 2022  
+FOSSASIA Dates: 7 to 9 April 2022  
+June Flagship Conference Dates: Not confirmed.  
