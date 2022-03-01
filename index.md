@@ -18,6 +18,7 @@ published: true
         <a class="btn brand" href="{{ site.baseurl }}/about/about-us/">Find out more!</a>
 	</p>
 	    <h2>Other external programmes</h2>
+	    <p><a href="https://www.teensinai.com/iwdhack2022/">Teens in AI are running their 5th Global Hackathon to celebrate International Women’s Day!</a></p>
 	    <p><a href="https://codingcompetitions.withgoogle.com/kickstart">Google Kickstart</a> registration is open!</p>
 	    <p><a href="https://for.edu.sg/bebrasdrctds">Bebras, DrCT and NM High School Data Science assessment/contests</a> are free for students in Singapore schools!</p> 
     <br/><br/><br/><br/><br/><br/>
