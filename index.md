@@ -19,8 +19,8 @@ published: true
 	</p>
 	    <h2>Other external programmes</h2>
 	    <p><a href="https://codingcompetitions.withgoogle.com/kickstart">Google Kickstart</a> registration is open!</p>
-	    <p><a href="https://for.edu.sg/bebrasdrctds">Bebras, DrCT and NM High School Data Science assessment/contests</a> are free for school students</p> 
-    <br/>
+	    <p><a href="https://for.edu.sg/bebrasdrctds">Bebras, DrCT and NM High School Data Science assessment/contests</a> are free for school students!</p> 
+    <br/><br/><br/>
     </div>
 </section>
 
