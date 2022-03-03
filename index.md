@@ -15,7 +15,8 @@ published: true
             {{ site.location }}
         </p>
 	<p>
-        <a class="btn brand" href="{{ site.baseurl }}/about/about-us/">Find out more!</a>
+        <a class="btn brand" href="{{ site.baseurl }}/about/about-us/">Learn about BuildingBloCS</a>
+	<a class="btn brand" href="{{ site.baseurl }}/Workshops/March Conference">March Conference 2022</a>
 	</p>
 	    <h2>Other external programmes</h2>
 	    <p><a href="https://www.teensinai.com/iwdhack2022/">Teens in AI are running their 5th Global Hackathon to celebrate International Women’s Day!</a></p>
