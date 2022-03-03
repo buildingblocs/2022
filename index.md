@@ -9,11 +9,6 @@ published: true
             {{ site.title }}<br>
             <span class="huge">2022</span>
         </h1>
-        <p>
-            {{ site.date }} 
-            <br/>
-            {{ site.location }}
-        </p>
 	<p>
         <a class="btn brand" href="{{ site.baseurl }}/about/about-us/">Learn about BuildingBloCS</a>
 	<a class="btn brand" href="{{ site.baseurl }}/Workshops/March Conference">March Conference 2022</a>
