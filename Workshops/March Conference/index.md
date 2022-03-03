@@ -6,9 +6,9 @@ layout: default
 We welcome everyone who wants to attend the **March Conference** for BuildingBloCS 2022! The March Conference consists of **mostly introductory workshops** so it is perfect for beginner or intermediate programmers to learn.  
 *Pre-requisites for all: access to a computer.*
 
-**March Conference dates:** 13 to 14 March 2022  
-**Website:** https://buildingblocs.sg  
-**Email contact for queries:** hello@buildingblocs.sg  
+**March Conference dates:** 13 to 14 March 2022 
+**Website:** <https://buildingblocs.sg>
+**Email contact for queries:** <hello@buildingblocs.sg>
 
 ## <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIBFZA6JRs56xcHOCJ6sif5OgACL_ck3W8Fo75CrnB3ixGjg/viewform">Sign up now!</a>
 
