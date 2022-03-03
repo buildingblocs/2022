@@ -10,7 +10,7 @@ We welcome everyone who wants to attend the **March Conference** for BBCS 2022! 
 **Website:** https://buildingblocs.sg  
 **Email contact for queries:** hello@buildingblocs.sg  
 
-**<a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIBFZA6JRs56xcHOCJ6sif5OgACL_ck3W8Fo75CrnB3ixGjg/viewform">Sign up now!</a>
+## <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIBFZA6JRs56xcHOCJ6sif5OgACL_ck3W8Fo75CrnB3ixGjg/viewform">Sign up now!</a>
 
 ## Workshops
 
