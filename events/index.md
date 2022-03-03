@@ -4,7 +4,9 @@ layout: default
 
 # Events
 
-We are still finalising our event plans for this year. Check back here later for more info! Meanwhile, check out our YouTube below!
+## March Conference 2022
+For BuildingBlocs2022, the first event will be the March Conference where various introductory workshops are held.
+# <a class="btn" href="{{ site.baseurl }}/Workshops/March Conference">March Conference 2022</a>
 
 ## BuildingBloCS YouTube
 
