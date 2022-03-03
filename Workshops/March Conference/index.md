@@ -10,6 +10,8 @@ We welcome everyone who wants to attend the **March Conference** for BBCS 2022! 
 **Website:** https://buildingblocs.sg  
 **Email contact for queries:** hello@buildingblocs.sg  
 
+**<a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScIBFZA6JRs56xcHOCJ6sif5OgACL_ck3W8Fo75CrnB3ixGjg/viewform">Sign up now!</a>
+
 ## Workshops
 
 <details> 
@@ -18,7 +20,7 @@ We welcome everyone who wants to attend the **March Conference** for BBCS 2022! 
 <br><b>Time:</b> [GMT +8] 3pm to 5.30pm, [GMT +9] 4pm to 6.30pm  
 <br><b>Description:</b> This workshop will introduce the basics of Python including functions, comparison operators, loops, conditional statements and basic knowledge on tuples, lists and strings.  
 </details>
-
+<br>
 <details>
 <summary> <b>Intro to SQL and Databases</b> </summary>
 <b>Date:</b> Sunday, 13 March 2022
@@ -26,14 +28,14 @@ We welcome everyone who wants to attend the **March Conference** for BBCS 2022! 
 <br><b>Description:</b> This workshop will introduce the basics of databases, more specifically relational (SQL) databases, and learn how to understand and apply basic CRUD database operations.
 <br><b>Additional Pre-requisites:</b> Basic knowledge in Python. Unfortunately, Chromebooks will not be supported
 </details>
-
+<br>
 <details>
 <summary> <b>C++ for Newbies</b> </summary>
 <b>Date:</b> Monday, 14 March 2022
 <br><b>Time:</b> [GMT +8] 1.30pm to 4pm, [GMT +9] 2.30pm to 5pm
 <br><b>Description:</b> Complete introduction to programming using the basics of C++ (i.e. Data types, Loops, etc.)
 </details>
-
+<br>
 <details>
 <summary> <b>Computational Thinking with Python</b> </summary>
 <b>Date:</b> Monday, 14 March 2022
