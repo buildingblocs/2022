@@ -3,7 +3,7 @@ layout: default
 ---
 # March Conference
 
-We welcome everyone who wants to attend the **March Conference** for BBCS 2022! The March Conference consists of **mostly introductory workshops** so it is perfect for beginner or intermediate programmers to learn.  
+We welcome everyone who wants to attend the **March Conference** for BuildingBloCS 2022! The March Conference consists of **mostly introductory workshops** so it is perfect for beginner or intermediate programmers to learn.  
 *Pre-requisites for all: access to a computer.*
 
 **March Conference dates:** 13 to 14 March 2022  
