@@ -15,3 +15,5 @@ BuildingBloCS is a year-long outreach programme for students, by students! Activ
 ### We have a Discord server!
 
 We will be posting regular updates through the server and it will be the easiest and quickest way to get the most up-to-date information regarding upcoming BuildingBloCS events and workshops. 
+
+## <a class="btn" href="https://go.buildingblocs.sg/discord">Join our community</a>
