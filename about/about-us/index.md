@@ -5,7 +5,7 @@ published: true
 
 # About Us
 
-### What is BuildingBloCS?
+### What is BuildingBloCS 2022?
 
 > &lsquo;A&rsquo; level / Integrated Programme and &lsquo;O&rsquo; level Computing students come together to build an infocomm-empowered future for a Better World!
 
