@@ -1,6 +1,6 @@
 ## Link to Task Document (if any)
 
-_Please insert link to Google Docs stating what the task is about._
+_Please insert link to Notion Task Tracker stating what the task is about._
 
 Link: #insert link here
 
