@@ -14,6 +14,8 @@ published: true
 	<p>
         <a class="btn brand" href="{{ site.baseurl }}/about/about-us/">Learn about BuildingBloCS</a>
 	</p>
+		<h2>Our events</h2>
+	    <p>Find out more about our <a href="{{ site.baseurl }}/events/june-conference/">Flagship June Conference!</a></p>
 	    <h2>Other external programmes</h2>
 	    <p><a href="https://codingcompetitions.withgoogle.com/kickstart">Google Kickstart</a> registration is open!</p>
 	    <p><a href="https://for.edu.sg/bebrasdrctds">Bebras, DrCT and NM High School Data Science assessment/contests</a> are free for students in Singapore schools!</p> 
