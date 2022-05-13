@@ -6,6 +6,11 @@ instagram: "buildingblocs22"
 github: "buildingblocs"
 discord: "D2ur6KJPxK"
 
+# For jekyll-multiple-languages-plugin
+# See: https://github.com/kurtsson/jekyll-multiple-languages-plugin
+languages: ["en", "jp", "zh"]
+exclude_from_localisations: ["javascript", "images", "css", "sass"]
+
 exclude:
   - README.md
   - assets/sass
