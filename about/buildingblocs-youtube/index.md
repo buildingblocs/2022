@@ -2,9 +2,7 @@
 layout: default
 ---
 
-# Events
-
-## BuildingBloCS YouTube
+# BuildingBloCS YouTube
 
 The BuildingBloCS YouTube Channel is where you can find videos of the past events that we have conducted to help you better understand what we do.
 
