@@ -1,5 +1,9 @@
 ---
 layout: default
+published: false
+
+permalink: workshops/march-conference/
+lang: en
 ---
 # March Conference
 

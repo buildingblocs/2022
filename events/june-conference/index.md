@@ -1,5 +1,8 @@
 ---
 layout: default
+
+permalink: events/june-conference/
+lang: en
 ---
 
 # June Conference
