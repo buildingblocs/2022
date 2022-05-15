@@ -1,10 +1,11 @@
 ---
 layout: default
+published: true
+permalink: about/bbcs-youtube/
+lang: en
 ---
 
-# Events
-
-## BuildingBloCS YouTube
+# BuildingBloCS YouTube
 
 The BuildingBloCS YouTube Channel is where you can find videos of the past events that we have conducted to help you better understand what we do.
 

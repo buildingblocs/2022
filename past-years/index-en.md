@@ -1,5 +1,8 @@
 ---
 layout: default
+
+permalink: past-years/
+lang: en
 ---
 
 # Past Years

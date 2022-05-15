@@ -39,11 +39,17 @@ The website makes use of the following:
 2. [Jekyll](https://jekyllrb.com/docs/installation/)
 3. [Node.js](https://nodejs.org/)
 4. [Yarn](https://yarnpkg.com/)
+5. [RubyGems](https://rubygems.org/pages/download)
+6. [Polyglot](https://github.com/untra/polyglot)
 
 > Yarn is the selected package manager for our project. In the base folder of the project, run `yarn install` to install all subdependencies. 
-
 ```
 yarn install
+```
+
+> After installing RubyGems, install jekyll-polyglot as per the instructions [here](https://github.com/untra/polyglot#installation) by doing ```gem install jekyll-polyglot```
+```
+gem install jekyll-polyglot
 ```
 
 
@@ -69,13 +75,14 @@ The following is an example of the folder structure in the root folder.
 ├── events
 ├── Gruntfile.js
 ├── _includes
-├── index.md
+├── index-en.md
+├── index-jp.md
+├── index-zh.md
 ├── join-us
 ├── _layouts
 ├── node_modules
 ├── package.json
 ├── past-years
-├── _plugins
 ├── README.md
 ├── workshops
 └── yarn.lock
@@ -87,14 +94,23 @@ To create a subpage that is viewable on the website, create a folder in the home
 ```
 about
 ├── about-us
-│   └── index.md
+│   ├── index-en.md
+│   ├── index-jp.md
+│   └── index-zh.md
 ├── buildingblocs-youtube
-│   └── index.md
+│   ├── index-en.md
+│   ├── index-jp.md
+│   └── index-zh.md
 ├── contact
-│   └── index.md
+│   ├── index-en.md
+│   ├── index-jp.md
+│   └── index-zh.md
 └── partners
-    └── index.md
+│   ├── index-en.md
+│   ├── index-jp.md
+│   └── index-zh.md
 ```
+> As per our internationalisation efforts, there <b>should</b> be a separate markdown file for each language specified in ```_config.yml```. If one is not provided, the page will still work due to [this](https://github.com/untra/polyglot#fallback-language-support).
 
 #### 2.1.3 Main Configuration Files
 
@@ -155,12 +171,6 @@ yarn upgrade --latest --caret
 To upgrade all dependencies to the latest version. **This is not recommended.**
 ```
 yarn upgrade --latest
-```
-
-For upgrading Git submodule plugin,
-```
-cd _plugins/multiple-languages
-git pull origin master
 ```
 
 ### 3.2 Building CSS from SASS

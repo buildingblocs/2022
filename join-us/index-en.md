@@ -1,5 +1,8 @@
 ---
 layout: default
+
+permalink: join-us/
+lang: en
 ---
 
 # BuildingBloCS 2022

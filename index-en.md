@@ -1,7 +1,11 @@
 ---
 layout: default
 published: true
+permalink: /
+lang: en
 ---
+
+{% assign lang = site.active_lang %}
 
 <br/><br/><br/><br/>
 
