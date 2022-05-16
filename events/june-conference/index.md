@@ -6,18 +6,14 @@ layout: default
 
 ### Details
 
-BuildingBloCS’s annual flagship conference will be happening from **2nd to 4th June**, with pre-event workshops being held on **1st June**.
-
-This year's theme will be **Web Development with APIs** and we will also be hosting a hackathon around the theme. 
+BuildingBloCS’s annual flagship conference will be happening from **2nd to 4th June**, with optional pre-event workshops being held on **1st June**.
 
 This conference will be hybrid, in-person at NUS School of Computing or online.
 
+This year's theme will be on Computational Thinking, Artificial Intelligence and Blockchain education.
+
 ### Hackathon
-
-The hackathon will be throughout the conference, with training/workshops on the first two days. There are 2 tracks, Beginner which is focused on Front End Development and targeted towards beginners with little to no experience in coding, and Standard which is on Back End Development with Python and Flask for experienced programmers. 
-
-There will be training for both tracks, however it is highly recommended that only people already familiar with Python and have some knowledge of Flask join the Standard track. An understanding of Python similar to what is covered in the H2 Computing syllabus is recommended.
-
+The hackathon will be using **Web Development with APIs** and run throughout the conference, with training/workshops on the first two days. There are 2 tracks, Beginner which is focused on Front End Development and catered for beginners with little to no experience in coding, and Standard which is on Back End Development with Python for students with some programming experience.
 
 ### Schedule
 
