@@ -6,9 +6,9 @@ layout: default
 
 ### Details
 
-BuildingBloCS’s annual flagship conference will be happening from **2nd to 4th June**, with pre-event workshops being held on **1st June**.
+BuildingBloCS’s annual flagship conference will be happening from **2nd to 4th June**, with pre-event workshops being held on **31st May and 1st June**.
 
-This year's theme will be **Web Development with APIs** and we will also be hosting a hackathon around the theme. 
+This conference theme will be **Web Development with APIs** and we will also be hosting a hackathon around the theme to learn more about computaional thinking, AI and blockchain.
 
 This conference will be hybrid, in-person at NUS School of Computing or online.
 
