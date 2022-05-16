@@ -6,7 +6,7 @@ layout: default
 
 ### Details
 
-BuildingBloCS’s annual flagship conference will be happening from **2nd to 4th June**, with optional pre-event workshops being held on **1st June**.
+BuildingBloCS’s annual flagship conference will be happening from **2nd to 4th June**, with optional pre-event workshops before the event.
 
 This conference will be hybrid, in-person at NUS School of Computing or online.
 
