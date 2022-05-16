@@ -13,7 +13,7 @@ This conference will be hybrid, in-person at NUS School of Computing or online.
 This year's theme will be on Computational Thinking, Artificial Intelligence and Blockchain education.
 
 ### Hackathon
-The hackathon will be using **Web Development with APIs** and run throughout the conference, with training/workshops on the first two days. There are 2 tracks, Beginner which is focused on Front End Development and catered for beginners with little to no experience in coding, and Standard which is on Back End Development with Python for students with some programming experience.
+The hackathon will develop practical skills in **Web Development with APIs** and run throughout the conference, with training/workshops on the first two days. There are 2 tracks, Beginner which is focused on Front End Development and catered for beginners with little to no experience in coding, and Standard which is on Back End Development with Python for students with some programming experience.
 
 ### Schedule
 
