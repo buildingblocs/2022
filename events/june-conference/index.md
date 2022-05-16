@@ -21,11 +21,28 @@ There will be training for both tracks, however it is highly recommended that on
 
 ### Schedule
 
+31st May - Pre-event Workshops
+
+1st June - Pre-event Workshops
+
 2nd June (9am to 5pm, NUS SoC or Online) - Hackathon Briefing, Workshops, Games, Talks
 
 3rd June (9am to 5pm, NUS SoC or Online) - Hackathon, Workshops, Games, Talks
 
 4th June (9am to 1.30pm, Online) -  Hackathon, Judging, Conclusion
+
+### Workshops
+
+#### 31st May
+
+1. Basics of Machine Learning and Deep Learning
+2. Intro to Git and GitHub
+3. Python: From Zero to Hero!
+
+#### 1st June
+
+1. Programming with C++
+2. Introduction to Artificial Intelligence (Classification) with Python
 
 More details regarding the workshops and pre-event will be updated soon, do check this page for them!
 
