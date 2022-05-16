@@ -12,13 +12,10 @@ published: true
             <span class="huge">2022</span>
         </h1>
 	<p>
-        <a class="btn brand" href="{{ site.baseurl }}/about/about-us/">Learn about BuildingBloCS</a>
+        <a class="btn brand" href="{{ site.baseurl }}/events/june-conference/">Sign up for June Conference!</a>
 	</p>
-		<h2>Our events</h2>
-	    <p>Find out more about our <a href="{{ site.baseurl }}/events/june-conference/">Flagship June Conference!</a></p>
-	    <h2>Other external programmes</h2>
-	    <p><a href="https://codingcompetitions.withgoogle.com/kickstart">Google Kickstart</a> registration is open!</p>
-	    <p><a href="https://for.edu.sg/bebrasdrctds">Bebras, DrCT and NM High School Data Science assessment/contests</a> are free for students in Singapore schools!</p> 
+	<h2><a href="{{ site.baseurl }}/about/about-us/">Learn about BuildingBloCS</a></h2>
+
     <br/><br/><br/><br/><br/><br/><br/>
     </div>
 </section>
@@ -27,7 +24,11 @@ published: true
 
 With the increasing importance of Computing education and AI literacy globally as well as disruptive emerging blockchain technologies, this year's focus areas will be on Computational Thinking, Artificial Intelligence and Blockchain Education!
 
-Learn about <a href="https://www.youtube.com/watch?v=KI3INCiyst8&t=905s">Introduction to Blockchain by TZAPAC</a>, official industry partner of <a href="https://noisg.comp.nus.edu.sg/noi/">National Olympiad in Informatics 2022</a>. 
+We will be partnering with <a href="https://www.simcconline.org/">SIMCC</a> to run <a href="https://forms.gle/CApQfJWAmrCPpTtL6">Bebras SG 2022 - International Computational Thinking and Informatics Challenge Registration</a> online in end May. Please register by 23 May 2022. Stay tuned also for DrCT registration in Jun 2022.
+
+We are proud to partner with <a href="https://aisingapore.org/">AI Singapore</a> again in their new <a href="https://aisingapore.org/student-outreach-programme/">AI Student Outreach Programme</a> which encourages students to form Student User Groups (SUG) to promote AI literacy and experiment with our open-source AI tools ‘AI BRICKS’ to develop solutions for their schools and real-world needs.
+
+Learn about <a href="https://www.youtube.com/watch?v=KI3INCiyst8&t=905s">Introduction to Blockchain</a> and <a href="https://www.youtube.com/watch?v=kde1nxLN43w&t=382s">Introduction to NFTs</a> by <a href="https://www.tzapac.com/">TZAPAC</a>, official industry partner of <a href="https://noisg.comp.nus.edu.sg/noi/">National Olympiad in Informatics 2022</a>. 
 
 ## Organisers
 
