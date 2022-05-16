@@ -16,7 +16,6 @@ published: true
 	</p>
 	<h2><a href="{{ site.baseurl }}/about/about-us/">Learn about BuildingBloCS</a></h2>
 
-    <br/><br/><br/><br/><br/><br/><br/>
     </div>
 </section>
 
