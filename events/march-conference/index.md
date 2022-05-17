@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+# PAST EVENT
+Our BuildingBloCS March Conference has concluded, after successfully having 4 workshops conducted to around 100 students in total from 13 to 14 March 2022. All workshops were recorded and will be uploaded on YouTube by next week. We hope all attendees have managed to learn something from the workshops - thank you for joining us!
+
+
 # March Conference
 
 We welcome everyone who wants to attend the **March Conference** for BuildingBloCS 2022! The March Conference consists of **mostly introductory workshops** so it is perfect for beginner or intermediate programmers to learn.  
