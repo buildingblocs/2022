@@ -12,14 +12,15 @@ published: true
         <h1><span class="huge">2022</span></h1>
         <h4>Thursday 2 June - Saturday 4 June</h4>
         <h4>NUS School of Computing / Online</h4>
-	    <h2><p><a class="btn" href="https://forms.gle/nRpQHPDduMHhZ9f37">Sign Up Now!</a></p></h2>
+	    <h2><p><a class="btn" href="https://forms.gle/nRpQHPDduMHhZ9f37">Sign Up Main Conference Now!</a></p></h2>
+	    <h3><p><a class="btn" href="https://forms.gle/4CVv2XUGN2DkT1fD8">Sign Up for Pre-Event Now!</a></p></h3>
 	    <p><a class="btn" href="{{ site.baseurl }}/events/june-conference/">Find Out More!</a></p>
 	    <h2>Other external programmes</h2>
 	    <p><a href="https://codingcompetitions.withgoogle.com/kickstart">Google Kickstart</a> registration is open!</p>
 	    <p><a href="https://for.edu.sg/bebrasdrctds">Bebras, DrCT and NM High School Data Science assessment/contests</a> are free for students in Singapore schools!</p> 
     </div>
 </section>
-<br><br><br><br><br>
+<br><br><br><br><br><br><br>
 ## Theme: Computational Thinking, AI and Blockchain Education
 
 With the increasing importance of Computing education and AI literacy globally as well as disruptive emerging blockchain technologies, this year's focus areas will be on Computational Thinking, Artificial Intelligence and Blockchain Education!

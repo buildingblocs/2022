@@ -33,17 +33,51 @@ There will be training for both tracks, however it is highly recommended that on
 
 ### Workshops
 
-#### 31st May
+<details> 
+<summary> <b>Basics of Machine Learning and Deep Learning</b> </summary>
+<b>Date:</b> Tuesday, 31 May 2022  
+<br><b>Description:</b> This workshop will teach basic but important ideas in machine learning and deep learning and is focused on introducing key concepts and building an understating of how things works and see the big picture of the world of AI.
+<br><b>Additional Pre-requisites:</b> None
+</details>
 
-1. Basics of Machine Learning and Deep Learning
-2. Intro to Git and GitHub
-3. Python: From Zero to Hero!
+<br>
 
-#### 1st June
+<details> 
+<summary> <b>Intro to Git and GitHub</b> </summary>
+<b>Date:</b> Tuesday, 31 May 2022  
+<br><b>Description:</b> This workshop will cover the fundamentals of Git workflows and GitHub as a platform. Some basic commands in Git will be covered as well as editing with GitHub as well.
+<br><b>Additional Pre-requisites:</b> None
+</details>
 
-1. Programming with C++
-2. Introduction to Artificial Intelligence (Classification) with Python
+<br>
 
+<details> 
+<summary> <b>Python: From Zero to Hero!</b> </summary>
+<b>Date:</b> Tuesday, 31 May 2022  
+<br><b>Description:</b> This workshop will introduce the basics of Python including functions, comparison operators, loops, conditional statements and basic knowledge on tuples, lists and strings.
+<br><b>Additional Pre-requisites:</b> None
+</details>
+
+<br>
+
+<details> 
+<summary> <b>Programming with C++</b> </summary>
+<b>Date:</b> Wednesday, 1 June 2022  
+<br><b>Description:</b> Introduction to Programming using C++ (i.e. Data types, Loops, etc.)
+<br><b>Additional Pre-requisites:</b> None
+</details>
+
+<br>
+
+<details> 
+<summary> <b>Introduction to Artificial Intelligence (Classification) with Python</b> </summary>
+<b>Date:</b> Wednesday, 1 June 2022  
+<br><b>Description:</b> Through the workshop, participants will get to learn about classification using a myriad of different methods, such as perceptron learning, support vector machine and regression. They will also acquire knowledge about the minimisation of loss function and overfitting. Python libraries, such as sklearn, will be utilised for participants to practice coding after learning the theories behind the various methods.
+<br><b>Additional Pre-requisites:</b> None
+</details>
+
+<br>
 More details regarding the workshops and pre-event will be updated soon, do check this page for them!
 
-## <a class="btn" href="https://forms.gle/nRpQHPDduMHhZ9f37">Sign up!</a>
+## <a class="btn" href="https://forms.gle/nRpQHPDduMHhZ9f37">Sign Up for Main Conference!</a>
+## <a class="btn" href="https://forms.gle/4CVv2XUGN2DkT1fD8">Sign Up for Pre-Event!</a>
