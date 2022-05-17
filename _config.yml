@@ -14,9 +14,6 @@ exclude_from_localization: [_data, _includes, _layouts, _plugins, _site, "javasc
 parallel_localization: true
 lang_from_path: true 
 
-plugins:
-  - jekyll-polyglot
-
 exclude:
   - README.md
   - assets/sass
@@ -25,6 +22,9 @@ exclude:
   - Gruntfile.js
   - .jekyll-cache/
   - .template/
+
+plugins:
+  - jekyll-polyglot
 
 # i18n : Different for different languages
 tagline:

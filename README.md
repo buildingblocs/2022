@@ -106,9 +106,9 @@ about
 │   ├── index-jp.md
 │   └── index-zh.md
 └── partners
-│   ├── index-en.md
-│   ├── index-jp.md
-│   └── index-zh.md
+    ├── index-en.md
+    ├── index-jp.md
+    └── index-zh.md
 ```
 > As per our internationalisation efforts, there <b>should</b> be a separate markdown file for each language specified in ```_config.yml```. If one is not provided, the page will still work due to [this](https://github.com/untra/polyglot#fallback-language-support).
 
