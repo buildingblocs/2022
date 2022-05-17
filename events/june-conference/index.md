@@ -8,11 +8,9 @@ layout: default
 
 BuildingBloCS’s annual flagship conference will be happening from **2nd to 4th June**, with optional pre-event workshops being held on **31st May and 1st June**.
 
-This conference theme will be **Web Development with APIs** and we will also be hosting a hackathon around the theme to learn more about computaional thinking, AI and blockchain.
+This year's theme will be on **Computational Thinking, Artificial Intelligence and Blockchain education**. There will be a hackathon around the theme using web Development with APIs.
 
 This conference will be hybrid, in-person at NUS School of Computing or online.
-
-This year's theme will be on Computational Thinking, Artificial Intelligence and Blockchain education.
 
 ### Hackathon
 The hackathon will develop practical skills in **Web Development with APIs** and run throughout the conference, with training/workshops on the first two days. There are 2 tracks, Beginner which is focused on Front End Development and catered for beginners with little to no experience in coding, and Standard which is on Back End Development with Python for students with some programming experience.
