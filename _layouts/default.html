@@ -30,6 +30,116 @@
 
     <script src="{{ site.baseurl }}/assets/js/navigation.js"></script>
 
+    <script>
+        let acceptedLanguages = []
+    </script>
+
+    {% for lang in site.languages %}
+    <script>
+        acceptedLanguages.push("{{ lang }}")
+    </script>
+    {% endfor %}
+
+    <script>
+        // Get the 2 digit Language Code of the current browser locale
+        function getLanguageCode() {
+            let languageString = navigator.language;
+            let languageCode = languageString.substring(0,2);
+
+            return languageCode.toString()
+        }
+
+        // Check if this 2 digit Language Code is supported
+        function checkLanguageCode(twodigitlang) {
+            twodigitlang = twodigitlang.toString()
+            for (let i=0; i < acceptedLanguages.length; i++) {
+                if (twodigitlang == acceptedLanguages[i]) {
+                    return twodigitlang
+                }
+            }
+            
+            return "en"
+        }
+
+        // Check if there is a stored locale in the browsers localStorage
+        function checkLocalStorage() {
+            if (localStorage.getItem('i18n_locale') === null) {
+                // localStorage key does not exist, go ahead to select locale from browser
+                let newLocale = checkLanguageCode(getLanguageCode());
+
+                // Store this newLocale in localStorage for future use
+                localStorage.setItem('i18n_locale', newLocale.toString());
+                
+                console.log("localStorage key of i18n_locale set to value: ".concat(newLocale.toString()));
+                return [0, newLocale.toString()]
+
+            } else {
+                // localStorage key exists, get that locale value from localStorage
+                let localStorageLocale = localStorage.getItem('i18n_locale');
+
+                return [1, localStorageLocale.toString()]
+            }
+        }
+
+        // Check if the user has a key in the sessionStorage to run only once.
+        function checkSessionStorage() {
+            if (sessionStorage.getItem('loadedOnce') === null) { // If it does not exist, make it exist
+                sessionStorage.setItem('loadedOnce', 'True');
+
+                return "False"
+            } else {
+                return "True"
+            }
+        }
+
+        // Change the value of the stored locale in the browsers localStorage if the user (on their given locale)
+        // decides to switch to a different locale instead
+        function changeLocalStorage(newValue) { // newValue is a string.
+            localStorage.setItem('i18n_locale', newValue)
+        }
+
+        // Since the english page is default and directly runs off {{ base.url }}, where other locale sites run off 
+        // /jp/ or /zh/ for example. This gives the resulting string, e.g. zh -> "zh/"
+        function giveLocale(lang) {
+            if (lang === "en") {
+                return ""
+            } else {
+                return "/".concat(lang);
+            }
+        }
+
+        // To be ran on window.load()
+        function changeLanguageOnLoad() {
+            let checkedLocalStorage = checkLocalStorage();
+
+            if (checkLocalStorage[0] === 0) { // localStorage value does not exist
+                let newLocale = checkedLocalStorage[1];
+                let addToRedirect = giveLocale(getLanguageCode());
+
+                // Redirect to page with new locale
+                redirectUser(addToRedirect);
+            } else { // localStorage value exists
+                let localeFromStorage = checkedLocalStorage[1];
+                let addToRedirect = giveLocale(localeFromStorage);
+
+                // Redirect to page with new locale
+                redirectUser(addToRedirect);
+            }
+        }
+
+        // Handles the actual redirecting
+        function redirectUser(addToRedirect) {
+            let redirectLink = addToRedirect.concat("{{ page.url }}");
+            window.location.href = "{{ site.url }}".concat(redirectLink);
+        }
+
+        if (checkSessionStorage() === "False") { // Can run
+            window.onload = changeLanguageOnLoad();
+        } 
+
+    </script>
 </body>
 
 </html>
+
+

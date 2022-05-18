@@ -26,6 +26,7 @@
                     {% for tongue in site.languages %}
                         {% if tongue == site.active_lang %}
                             <a style="font-weight: bold;"
+                            onclick = 'changeLocalStorage("{{ tongue }}")'
                             href="
                             {% if tongue == site.default_lang %}
                                 {{ site.baseurl }}{{ page.url }}
@@ -35,6 +36,7 @@
                             >{{ tongue }}</a>
                         {% else %}
                             <a
+                            onclick = 'changeLocalStorage("{{ tongue }}")'
                             href="
                             {% if tongue == site.default_lang %}
                                 {{ site.baseurl }}{{ page.url }}
