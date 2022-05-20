@@ -1,6 +1,8 @@
 ---
 layout: default
 published: true
+permalink: about/about-us/
+lang: en
 ---
 
 # About Us

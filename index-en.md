@@ -1,9 +1,13 @@
 ---
 layout: default
 published: true
+permalink: /
+lang: en
 ---
 
-<br/><br/><br/><br/><br>
+{% assign lang = site.active_lang %}
+
+<br/><br/><br/><br/><br/>
 
 <section class="jumbo">
     <div class="main-div">
