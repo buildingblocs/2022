@@ -41,15 +41,16 @@ The website makes use of the following:
 4. [Yarn](https://yarnpkg.com/)
 5. [RubyGems](https://rubygems.org/pages/download)
 6. [Polyglot](https://github.com/untra/polyglot)
+7. [Bundler](https://bundler.io/v2.3/)
 
 > Yarn is the selected package manager for our project. In the base folder of the project, run `yarn install` to install all subdependencies. 
 ```
 yarn install
 ```
 
-> After installing RubyGems, install jekyll-polyglot as per the instructions [here](https://github.com/untra/polyglot#installation) by doing ```gem install jekyll-polyglot```
+> After installing RubyGems and Bundler, install the necessary gems as per the instructions [here](https://bundler.io/v2.3/bundle_install.html) by doing ```bundle install```
 ```
-gem install jekyll-polyglot
+bundle install
 ```
 
 
@@ -73,6 +74,8 @@ The following is an example of the folder structure in the root folder.
 ├── _config.yml
 ├── _data
 ├── events
+├── Gemfile
+├── Gemfile.lock
 ├── Gruntfile.js
 ├── _includes
 ├── index-en.md
@@ -150,6 +153,8 @@ The following files should not be touched unless you know what you are doing.
 ├── node_modules
 ├── .gitignore
 ├── .gitmodules
+├── Gemfile
+├── Gemfile.lock
 ├── Gruntfile.js
 ├── package.json
 └── yarn.lock
@@ -194,7 +199,7 @@ yarn build
 Jekyll is used to run a localised version of the website, that allows you to easily view the changes you make. Run `jekyll serve` in your project folder and type `http://localhost:4000` into your web browser of choice to view the website.
 
 ```
-jekyll serve
+bundle exec jekyll serve
 ```
 
 We strongly encourage local development and making pull requests as editing via the online environment could be messy and hard to organise. Thank you!
