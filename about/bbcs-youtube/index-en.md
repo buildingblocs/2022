@@ -1,5 +1,8 @@
 ---
 layout: default
+published: true
+permalink: about/bbcs-youtube/
+lang: en
 ---
 
 # BuildingBloCS YouTube

@@ -1,6 +1,8 @@
 ---
 layout: default
 
+permalink: competitions/
+lang: en
 ---
 
 # Competitions

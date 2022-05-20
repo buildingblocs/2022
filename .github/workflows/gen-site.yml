@@ -1,0 +1,59 @@
+name: Generate BuildingBloCS Static Site
+on: 
+  push:
+      branches: [main, dev]
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  gen-site:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks out all history
+      - name: Checkout main brach
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Setup ruby build environment
+      - name: Setup ruby environment
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1.2'
+
+      # Setup yarn build environment
+      - name: Setup yarn environment
+        uses: mskelton/setup-yarn@v1 
+
+      # Build necessary dependencies
+      - name: Install gems and node modules
+        run: |
+          git checkout -b _site
+          bundle install --full-index
+          yarn install
+      # Build site 
+      - name: Build css and site
+          yarn build
+          bundle exec jekyll build
+
+      # Cleanup repository root
+      - name: Clearing all other files
+        run: ls | grep -v _site | xargs rm -r
+
+      # Move site to repository root
+      - name: moving and cleaning up site folder
+        run: |
+          mv _site/* ./
+          find . -name yarn.lock -delete
+          
+      # Commit to _site and activate github pages action
+      - name: Commit to branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: '. -f'
+          default_author: github_actions
+          message: "Pushing new version of i18n site"
+          push: 'origin _site --force'

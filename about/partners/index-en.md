@@ -1,7 +1,10 @@
 ---
 layout: default
 published: true
+permalink: about/partners/
+lang: en
 ---
+
 # Partners
 BuildingBloCS collaborates with various community partners to promote Computing education in Singapore schools.
 Interested to become a partner? Contact [hello@buildingblocs.sg](mailto:hello@buildingblocs.sg)!
