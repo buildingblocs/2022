@@ -50,9 +50,9 @@ The hackathon will develop practical skills in **Web Development with APIs** and
 <br>
 
 <details> 
-<summary> <b>Basics of Machine Learning and Deep Learning</b> </summary>
+<summary> <b>Basics of Deep Learning</b> </summary>
 <br><b>Date:</b> Tuesday, 31 May 2022 
-<br><b>Time:</b> [GMT +8] 1830 - 2130
+<br><b>Time:</b> [GMT +8] 1830 - 2000
 <br><b>Description:</b> This workshop will teach basic but important ideas in machine learning and deep learning and is focused on introducing key concepts and building an understating of how things works and see the big picture of the world of AI.
 <br><b>Additional Pre-requisites:</b> None
 </details>
