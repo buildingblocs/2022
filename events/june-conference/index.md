@@ -27,7 +27,7 @@ The hackathon will develop practical skills in **Web Development with APIs** and
 
 4th June (9am to 1.30pm, Online) -  Hackathon, Judging, Conclusion
 
-### Workshops
+### Pre-event Workshops
 
 <details> 
 <summary> <b>Basics of Machine Learning and Deep Learning</b> </summary>
