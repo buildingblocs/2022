@@ -10,7 +10,7 @@ defaults:
 
 jobs:
   gen-site:
-    runs-on: ubuntu-latest
+    runs-on: ruby:latest
     steps:
       # Checks out all history
       - name: Checkout main brach
