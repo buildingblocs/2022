@@ -37,7 +37,7 @@ jobs:
           ls -la _site/
 
       - name: Clearing all other files
-        run: ls | grep -v _site -v assets | xargs rm -r
+        run: ls | grep -v _site | xargs rm -r
       
       - name: moving and cleaning up site folder
         run: |
