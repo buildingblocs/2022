@@ -33,7 +33,7 @@ jobs:
           git checkout -b _site
           bundle install --full-index
           bundle exec jekyll build
-          rm -rf !(_site)
+          rm -rf !\(_site\)
           mv _site/* ./
           rm _site/yarn.lock
       - name: Commit to branch
