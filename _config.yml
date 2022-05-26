@@ -1,10 +1,18 @@
-title: "BuildingBloCS"
-tagline: "High School Computing Conference"
-date: "Date TBC"
-location: "Location TBC"
-instagram: "buildingblocs22"
-github: "buildingblocs"
-discord: "D2ur6KJPxK"
+source:       .
+destination:  ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
+
+# For polyglot
+# See: https://github.com/untra/polyglot
+# Note the American English.
+languages: ["en", "jp", "zh"]
+default_lang: "en"
+exclude_from_localization: [_data, _includes, _layouts, _plugins, _site, "javascript", "images", "css", "sass"]
+parallel_localization: true
+lang_from_path: true 
 
 exclude:
   - README.md
@@ -14,3 +22,28 @@ exclude:
   - Gruntfile.js
   - .jekyll-cache/
   - .template/
+
+plugins:
+  - jekyll-polyglot
+
+# i18n : Different for different languages
+tagline:
+  en: High School Computing Conference
+  jp: 高校生コンピューティング会議
+  zh: 高中计算机科学会议
+
+date:
+  en: Date TBC
+  jp: 開催日 TBC
+  zh: 日时还未确定
+
+location:
+  en: Location TBC
+  jp: 場所 TBC
+  zh: 场所还未确定
+
+# Common to all languages
+title: "BuildingBloCS"
+instagram: "buildingblocs22"
+github: "buildingblocs"
+discord: "D2ur6KJPxK"

@@ -1,0 +1,34 @@
+name: Generate BuildingBloCS Static Site
+on: 
+  push:
+      branches: [main]
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  gen-site:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks out all history
+      - name: Checkout main brach
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+    
+      # Build static site
+      - name: Install Gems
+        run: |
+          git checkout _site
+          bundle install
+          bundle exec jekyll build
+          rm _site/yarn.lock
+      - name: Commit to branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: '_site -f'
+          default_author: GitHub <noreply@github.com>
+          message: "Pushing new version of i18n site"
+          push: 'origin _site --force'

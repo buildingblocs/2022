@@ -1,6 +1,8 @@
 ---
 layout: default
 published: true
+permalink: about/contact/
+lang: en
 ---
 
 # Contact
