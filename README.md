@@ -43,12 +43,16 @@ The website makes use of the following:
 6. [Polyglot](https://github.com/untra/polyglot)
 7. [Bundler](https://bundler.io/v2.3/)
 
-> Yarn is the selected package manager for our project. In the base folder of the project, run `yarn install` to install all subdependencies. 
+> Yarn is the selected package manager for our project. In the base folder of the project, run `yarn install` to install all subdependencies. If you have `node.js >=16.10` installed, you just need to enable yarn with `corepack enable`
 ```
 yarn install
 ```
 
+We use Ruby and RubyGems for this page. Using a tool like `rbenv` is recommended to install ruby as certain linux distributions may have an old version built and cached in their archives 
+
+
 > After installing RubyGems and Bundler, install the necessary gems as per the instructions [here](https://bundler.io/v2.3/bundle_install.html) by doing ```bundle install```
+
 ```
 bundle install
 ```
