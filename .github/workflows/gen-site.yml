@@ -12,6 +12,11 @@ jobs:
   gen-site:
     runs-on: ubuntu-latest
     steps:
+      - name: Cancel Github Pages Default Workflow
+        uses: styfle/cancel-workflow-action@0.9.1
+        with:
+          workflow_id: 18607871
+          access_token: ${{ github.token }}
       # Checks out all history
       - name: Checkout main brach
         uses: actions/checkout@v3
