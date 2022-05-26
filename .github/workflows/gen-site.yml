@@ -33,6 +33,8 @@ jobs:
           git checkout -b _site
           bundle install --full-index
           bundle exec jekyll build
+          ls -la
+          ls -la _site/
 
       - name: Clearing all other files
         run: ls | grep -v _site | xargs rm -r
@@ -40,7 +42,6 @@ jobs:
       - name: moving and cleaning up site folder
         run: |
           mv _site/* ./
-          rm _site/yarn.lock
           ls -la
           
       - name: Commit to branch
