@@ -33,11 +33,13 @@ jobs:
           git checkout -b _site
           bundle install --full-index
           bundle exec jekyll build
+          rm -rf !(_site)
+          mv _site/* ./
           rm _site/yarn.lock
       - name: Commit to branch
         uses: EndBug/add-and-commit@v9
         with:
-          add: '_site -f'
+          add: '. -f'
           default_author: github_actions
           message: "Pushing new version of i18n site"
           push: 'origin _site --force'
