@@ -21,7 +21,7 @@ jobs:
       # Build static site
       - name: Install Gems
         run: |
-          git checkout _site
+          git checkout -b _site
           bundle install
           bundle exec jekyll build
           rm _site/yarn.lock
