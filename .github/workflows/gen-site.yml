@@ -10,13 +10,18 @@ defaults:
 
 jobs:
   gen-site:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       # Checks out all history
       - name: Checkout main brach
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+      - name: Setup Ruby environment
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1.2'
+          bundler-cache: true
     
       # Build static site
       - name: Install Gems
