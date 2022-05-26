@@ -26,7 +26,7 @@ jobs:
       - name: Install Gems and build static site
         run: |
           git checkout -b _site
-          bundle install
+          bundle install --full-index
           bundle exec jekyll build
           rm _site/yarn.lock
       - name: Commit to branch
