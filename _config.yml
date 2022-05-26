@@ -4,6 +4,8 @@ plugins_dir:  _plugins
 layouts_dir:  _layouts
 data_dir:     _data
 includes_dir: _includes
+url: https://buildingblocs.sg
+baseurl: /2022
 
 # For polyglot
 # See: https://github.com/untra/polyglot
