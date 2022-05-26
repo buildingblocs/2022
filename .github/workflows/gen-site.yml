@@ -1,7 +1,7 @@
 name: Generate BuildingBloCS Static Site
 on: 
   push:
-      branches: [main]
+      branches: [main, dev]
   workflow_dispatch:
 
 defaults:
@@ -33,9 +33,16 @@ jobs:
           git checkout -b _site
           bundle install --full-index
           bundle exec jekyll build
-          rm -rf !\(_site\)
+
+      - name: Clearing all other files
+        run: ls | grep -v _site | xargs rm -r
+      
+      - name: moving and cleaning up site folder
+        run: |
           mv _site/* ./
           rm _site/yarn.lock
+          ls -la
+          
       - name: Commit to branch
         uses: EndBug/add-and-commit@v9
         with:
