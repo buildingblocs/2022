@@ -26,12 +26,15 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1.2'
-    
+      - name: Setup yarn environment
+        uses: mskelton/setup-yarn@v1 
       # Build static site
       - name: Install Gems and build static site
         run: |
           git checkout -b _site
           bundle install --full-index
+          yarn install
+          yarn build
           bundle exec jekyll build
           ls -la
           ls -la _site/
