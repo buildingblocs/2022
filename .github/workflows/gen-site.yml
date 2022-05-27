@@ -37,6 +37,7 @@ jobs:
         
       # Build site 
       - name: Build css and site
+        run: |
           yarn build
           bundle exec jekyll build
 
