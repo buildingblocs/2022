@@ -34,6 +34,7 @@ jobs:
           git checkout -b _site
           bundle install --full-index
           yarn install
+        
       # Build site 
       - name: Build css and site
           yarn build
