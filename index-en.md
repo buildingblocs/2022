@@ -11,9 +11,9 @@ lang: en
         <h1><span class="huge">2022</span></h1>
         <h4>Thursday 2 June - Saturday 4 June</h4>
         <h4>NUS School of Computing / Online</h4>
-	    <h2><a class="btn" href="https://forms.gle/nRpQHPDduMHhZ9f37">Sign Up Main Conference Now!</a></h2>
 	    <h3><a class="btn" href="https://forms.gle/4CVv2XUGN2DkT1fD8">Sign Up for Pre-Event Now!</a></h3>
 	    <h4><a class="btn" href="{{ site.baseurl }}/events/june-conference/">Find Out More!</a></h4>
+	    <h3> Scroll down for the schedule! </h3>
     </div>
 </section>
 <br><br><br><br>

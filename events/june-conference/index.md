@@ -28,16 +28,18 @@ The hackathon will develop practical skills in **Web Development with APIs** and
 
 3rd June (9am to 5pm, NUS SoC or Online) - Hackathon, Workshops, Games, Talks
 
-4th June (9am to 1.30pm, Online) -  Hackathon, Judging, Conclusion
+4th June (9am to 1.30pm, Online) -  Talks, Hackathon, Judging
+
+Week 2 of June Holidays - Conclusion, Prize Presentation
 
 ### Pre-event Workshops
 
 <details> 
 <summary> <b>Python: From Zero to Hero!</b> </summary>
 <br><b>Date:</b> Tuesday, 31 May 2022 
-<br><b>Time:</b> [GMT +8] 1030 - 1230
+<br><b>Time:</b> [GMT +8] 1030 - 1300
 <br><b>Description:</b> This workshop will introduce the basics of Python including functions, comparison operators, loops, conditional statements and basic knowledge on tuples, lists and strings.
-<br><b>Additional Pre-requisites:</b> None
+<br><b>Additional Pre-requisites:</b> Create a CodeCollab account
 </details>
 
 <br>
@@ -53,10 +55,10 @@ The hackathon will develop practical skills in **Web Development with APIs** and
 <br>
 
 <details> 
-<summary> <b>Basics of Machine Learning and Deep Learning</b> </summary>
+<summary> <b>Basics of Deep Learning</b> </summary>
 <br><b>Date:</b> Tuesday, 31 May 2022 
-<br><b>Time:</b> [GMT +8] 1830 - 2130
-<br><b>Description:</b> This workshop will teach basic but important ideas in machine learning and deep learning and is focused on introducing key concepts and building an understating of how things works and see the big picture of the world of AI.
+<br><b>Time:</b> [GMT +8] 1830 - 2000
+<br><b>Description:</b> This workshop will teach basic but important ideas in deep learning and is focused on introducing key concepts and building an understanding of how deep learning works and see the big picture in the world of AI.
 <br><b>Additional Pre-requisites:</b> None
 </details>
 
@@ -65,9 +67,9 @@ The hackathon will develop practical skills in **Web Development with APIs** and
 <details> 
 <summary> <b>Intro to Git and GitHub</b> </summary>
 <br><b>Date:</b> Wednesday, 1 June 2022 
-<br><b>Time:</b> [GMT +8] 1000 - 1130
+<br><b>Time:</b> [GMT +8] 1000 - 1100
 <br><b>Description:</b> This workshop will cover the fundamentals of Git workflows and GitHub as a platform. Some basic commands in Git will be covered as well as editing with GitHub as well.
-<br><b>Additional Pre-requisites:</b> None
+<br><b>Additional Pre-requisites:</b> Let us know if you are using a Chromebook or iPad by emailing us/sending us a message on Discord!
 </details>
 
 <br>
@@ -77,7 +79,7 @@ The hackathon will develop practical skills in **Web Development with APIs** and
 <br><b>Date:</b> Wednesday, 1 June 2022  
 <br><b>Time:</b> [GMT +8] 1300 - 1600
 <br><b>Description:</b> Introduction to Programming using C++ (i.e. Data types, Loops, etc.)
-<br><b>Additional Pre-requisites:</b> None
+<br><b>Additional Pre-requisites:</b> Create a CodeCollab account
 </details>
 
 <br>
