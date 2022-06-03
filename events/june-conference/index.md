@@ -83,7 +83,4 @@ Week 2 of June Holidays - Conclusion, Prize Presentation
 </details>
 
 <br>
-More details regarding the workshops and pre-event will be updated soon, do check this page for them!
 
-## <a class="btn" href="https://forms.gle/nRpQHPDduMHhZ9f37">Sign Up for Main Conference!</a>
-## <a class="btn" href="https://forms.gle/4CVv2XUGN2DkT1fD8">Sign Up for Pre-Event!</a>
